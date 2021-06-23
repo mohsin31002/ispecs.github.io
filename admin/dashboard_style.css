@@ -1,0 +1,174 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.topbar
+{
+  height: 70px;
+  width: 1600px;
+  margin-left: -8px;
+  margin-top: -20px;
+  background-color: white;
+}
+
+.sidenav 
+{
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  left: 0;
+  background-color: #1abc9c;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-left: -5px;
+  text-decoration: none;
+
+}
+
+.sidenav a 
+{
+  padding: 6px 8px 9px 10px;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover 
+{
+  color: #1abc9c;
+  background-color: white;
+}
+
+
+/*================================*/
+.sidebar
+{
+    margin-top: 15px;
+    background-color: #1abc9c;
+    color : white;
+    width: 15%;
+    height: 300px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.sidebar:hover
+{
+  background-color: #1abc9c;
+  color:white;
+}
+
+
+
+/*====================================*/
+
+.logout
+{
+  background-color: #cc0000;
+}
+.logout a:hover
+{
+color: white;
+background-color: #cc0000;
+}
+
+.main 
+{
+  margin-left: 241px; /* Same as the width of the sidenav */
+  font-size: 24px; /* Increased text to enable scrolling */
+  padding: 7px 16px;
+  height: 90px;
+  width: 1319px;
+
+  background-color: #1abc9c;
+  color: white; 
+}
+
+
+@media screen and (max-height: 450px) 
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*--------------------------------------------------- Add Product Form ---------------------------------------------*/
+
+.box
+{
+  border: 2px solid #1abc9c;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 80%;
+  margin-bottom: 15px;
+  margin-top: 24px;
+  border: 1px solid #1abc9c;
+  margin-left: 50px;
+
+}
+
+.icon {
+  padding: 10px;
+  background: #1abc9c;
+  color: white;
+  min-width: 30px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #1abc9c;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #1abc9c;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.btn:hover 
+{
+  background-color: black;
+  color: white;
+
+}
+
+
+.link_btn 
+{
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+
+
+}
+
+.link_btn:hover
+{
+  background-color: black;
+  color:white;
+}
